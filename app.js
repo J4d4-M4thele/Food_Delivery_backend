@@ -10,7 +10,7 @@ dotenv.config({ path: "./config.env" });
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://benevolent-haupia-15b6fb.netlify.app/"],
     methods: ["POST"],
     credentials: true,
   })
